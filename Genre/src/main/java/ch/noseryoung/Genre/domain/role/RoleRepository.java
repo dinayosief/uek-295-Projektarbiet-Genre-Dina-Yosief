@@ -1,9 +1,9 @@
-package ch.noseryoung.Genre.domain.genre;
+package ch.noseryoung.Genre.domain.role;
+
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface GenreRepository extends JpaRepository<Genre, String> {
-
+public interface RoleRepository extends JpaRepository<Role, Integer> {
 }
